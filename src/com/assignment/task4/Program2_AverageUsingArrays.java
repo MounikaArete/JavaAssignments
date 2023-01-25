@@ -1,4 +1,4 @@
-package com.assignment.task4.program1;
+package com.assignment.task4;
 
 import java.util.Scanner;
 
