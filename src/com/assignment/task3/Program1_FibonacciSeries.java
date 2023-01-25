@@ -9,7 +9,7 @@ public class Program1_FibonacciSeries {
         System.out.print("Enter the count: ");
         int count= sc.nextInt();
         System.out.println("Fibonocci Series of " + count +" numbers is: ");
-        for(int i=2;i<count;i++){
+        for(int i=2;i<count+2;i++){
             sum=first_number+second_number;
             first_number=second_number;
             second_number=sum;
