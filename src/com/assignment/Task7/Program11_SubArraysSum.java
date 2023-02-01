@@ -1,8 +1,9 @@
-package com.assignment.task4;
+package com.assignment.Task7;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class Program6_FindIntegersOfSum {
+public class Program11_SubArraysSum {
     public static void main(String[] args) {
         int sum=0;
         Scanner sc = new Scanner(System.in);
@@ -21,7 +22,8 @@ public class Program6_FindIntegersOfSum {
                 int SecondNumber=numbers[j];
                 sum = FirstNumber + SecondNumber;
                 if(sum==TargetValue){
-                    System.out.println("Sum of "+ FirstNumber +"+"+SecondNumber+" is: "+ TargetValue);
+                    int finalNumber[]={FirstNumber,SecondNumber};
+                    System.out.println(Arrays.toString(finalNumber));
                 }
             }
         }
